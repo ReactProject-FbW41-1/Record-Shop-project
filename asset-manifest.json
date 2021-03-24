@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Record-Shop-project/static/css/main.b0bfe35f.chunk.css",
-    "main.js": "/Record-Shop-project/static/js/main.1d0a978d.chunk.js",
-    "main.js.map": "/Record-Shop-project/static/js/main.1d0a978d.chunk.js.map",
+    "main.js": "/Record-Shop-project/static/js/main.e0b29354.chunk.js",
+    "main.js.map": "/Record-Shop-project/static/js/main.e0b29354.chunk.js.map",
     "runtime-main.js": "/Record-Shop-project/static/js/runtime-main.e05c1143.js",
     "runtime-main.js.map": "/Record-Shop-project/static/js/runtime-main.e05c1143.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Record-Shop-project/static/css/2.4c97ca4f.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.4c97ca4f.chunk.css.map": "/Record-Shop-project/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.b0bfe35f.chunk.css.map": "/Record-Shop-project/static/css/main.b0bfe35f.chunk.css.map",
     "static/js/2.7f696571.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/2.7f696571.chunk.js.LICENSE.txt",
-    "static/js/main.1d0a978d.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/main.1d0a978d.chunk.js.LICENSE.txt",
+    "static/js/main.e0b29354.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/main.e0b29354.chunk.js.LICENSE.txt",
     "static/media/1969_Led_Zeppelin.90d6cece.jpg": "/Record-Shop-project/static/media/1969_Led_Zeppelin.90d6cece.jpg",
     "static/media/AbbeyRoad.741ce89c.jpg": "/Record-Shop-project/static/media/AbbeyRoad.741ce89c.jpg",
     "static/media/Achtung_Baby.34361461.jpg": "/Record-Shop-project/static/media/Achtung_Baby.34361461.jpg",
@@ -50,6 +50,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.7f696571.chunk.js",
     "static/css/main.b0bfe35f.chunk.css",
-    "static/js/main.1d0a978d.chunk.js"
+    "static/js/main.e0b29354.chunk.js"
   ]
 }
