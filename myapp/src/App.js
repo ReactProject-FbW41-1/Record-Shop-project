@@ -31,7 +31,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route path="/" exact>
+          <Route path="/Record-Shop-project" exact>
             <Carousel />
             {context.myStateData.popUp ? <PopUp></PopUp> : null}
             <MainAlbumContainer />
