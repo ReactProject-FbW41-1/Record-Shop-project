@@ -20,7 +20,7 @@ function App() {
   const context = useContext(UserContext);
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar />
         <div className=" switch-checkbox">
@@ -36,18 +36,9 @@ function App() {
             {context.myStateData.popUp ? <PopUp></PopUp> : null}
             <MainAlbumContainer />
           </Route>
-          <Route
-            //? trying
-            path="/bestsellers"
-            exact
-          ></Route>
+          <Route path={process.env.PUBLIC_URL + "/bestseller"} exact></Route>
           <Route path="/album" component={AlbumPage} />
-          <Route
-            //? trying
-            path="/payment"
-            exact
-          >
-            {/* example payment page in component,real one by Ahmad */}
+          <Route path={process.env.PUBLIC_URL + "/payment"} exact>
             <Payment></Payment>
           </Route>
         </Switch>
