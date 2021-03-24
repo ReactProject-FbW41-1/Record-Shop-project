@@ -31,7 +31,7 @@ function App() {
         </div>
 
         <Switch>
-          <Route path="/" exact>
+          <Route path={process.env.PUBLIC_URL + "/"} exact>
             <Carousel />
             {context.myStateData.popUp ? <PopUp></PopUp> : null}
             <MainAlbumContainer />
