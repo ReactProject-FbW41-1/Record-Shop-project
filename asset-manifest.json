@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Record-Shop-project/static/css/main.b0bfe35f.chunk.css",
-    "main.js": "/Record-Shop-project/static/js/main.2cec27d2.chunk.js",
-    "main.js.map": "/Record-Shop-project/static/js/main.2cec27d2.chunk.js.map",
+    "main.js": "/Record-Shop-project/static/js/main.ef3ac85a.chunk.js",
+    "main.js.map": "/Record-Shop-project/static/js/main.ef3ac85a.chunk.js.map",
     "runtime-main.js": "/Record-Shop-project/static/js/runtime-main.e05c1143.js",
     "runtime-main.js.map": "/Record-Shop-project/static/js/runtime-main.e05c1143.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Record-Shop-project/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.7f696571.chunk.js": "/Record-Shop-project/static/js/2.7f696571.chunk.js",
-    "static/js/2.7f696571.chunk.js.map": "/Record-Shop-project/static/js/2.7f696571.chunk.js.map",
+    "static/js/2.43097b07.chunk.js": "/Record-Shop-project/static/js/2.43097b07.chunk.js",
+    "static/js/2.43097b07.chunk.js.map": "/Record-Shop-project/static/js/2.43097b07.chunk.js.map",
     "static/js/3.85b53a1e.chunk.js": "/Record-Shop-project/static/js/3.85b53a1e.chunk.js",
     "static/js/3.85b53a1e.chunk.js.map": "/Record-Shop-project/static/js/3.85b53a1e.chunk.js.map",
     "index.html": "/Record-Shop-project/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Record-Shop-project/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.b0bfe35f.chunk.css.map": "/Record-Shop-project/static/css/main.b0bfe35f.chunk.css.map",
-    "static/js/2.7f696571.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/2.7f696571.chunk.js.LICENSE.txt",
-    "static/js/main.2cec27d2.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/main.2cec27d2.chunk.js.LICENSE.txt",
+    "static/js/2.43097b07.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/2.43097b07.chunk.js.LICENSE.txt",
+    "static/js/main.ef3ac85a.chunk.js.LICENSE.txt": "/Record-Shop-project/static/js/main.ef3ac85a.chunk.js.LICENSE.txt",
     "static/media/1969_Led_Zeppelin.90d6cece.jpg": "/Record-Shop-project/static/media/1969_Led_Zeppelin.90d6cece.jpg",
     "static/media/AbbeyRoad.741ce89c.jpg": "/Record-Shop-project/static/media/AbbeyRoad.741ce89c.jpg",
     "static/media/Achtung_Baby.34361461.jpg": "/Record-Shop-project/static/media/Achtung_Baby.34361461.jpg",
@@ -48,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.e05c1143.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.7f696571.chunk.js",
+    "static/js/2.43097b07.chunk.js",
     "static/css/main.b0bfe35f.chunk.css",
-    "static/js/main.2cec27d2.chunk.js"
+    "static/js/main.ef3ac85a.chunk.js"
   ]
 }
