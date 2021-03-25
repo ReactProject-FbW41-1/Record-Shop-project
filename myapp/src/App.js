@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 import UserContext from "./ContextFolder/Context";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 //! Components
 import Navbar from "./Components/Navbar/MyNavbar";
@@ -20,7 +20,7 @@ function App() {
   const context = useContext(UserContext);
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar />
         <div className=" switch-checkbox">
@@ -29,23 +29,22 @@ function App() {
             Light-Dark
           </button>
         </div>
-
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/"} exact>
+          <Route path="/" exact>
             <Carousel />
             {context.myStateData.popUp ? <PopUp></PopUp> : null}
             <MainAlbumContainer />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/bestseller"} exact></Route>
+          <Route path="/bestsellers" exact></Route>
           <Route path="/album" component={AlbumPage} />
-          <Route path={process.env.PUBLIC_URL + "/payment"} exact>
+          <Route path="/payment" exact>
             <Payment></Payment>
           </Route>
         </Switch>
         <Contacts />
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

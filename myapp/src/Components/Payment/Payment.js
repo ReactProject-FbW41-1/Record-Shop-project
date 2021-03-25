@@ -11,7 +11,7 @@ function Payment() {
     return (
       <div
         className="d-flex justify-content-start px-5 mx-auto my-4"
-        style={{ width: "70%" }}
+        style={{ width: "80%" }}
       >
         <div>
           {context.myStateData.chart.length === 0 ? null : (
