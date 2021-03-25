@@ -9,21 +9,23 @@ function MyNavbar() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand href="/" className="d-flex align-items-center ml-3">
-          <i
-            className="fas fa-record-vinyl mr-3"
-            style={{ fontSize: "3rem", color: "#353839" }}
-          ></i>
-          <h1
-            style={{
-              color: "#353839",
-              fontWeight: "bolder",
-              fontSize: "2rem",
-            }}
-            className="mt-2"
-          >
-            VINILO
-          </h1>
+        <Navbar.Brand className="d-flex align-items-center ml-3">
+          <NavLink to="/" className="w-100 d-flex align-items-center">
+            <i
+              className="fas fa-record-vinyl mr-3"
+              style={{ fontSize: "3rem", color: "#353839" }}
+            ></i>
+            <h1
+              style={{
+                color: "#353839",
+                fontWeight: "bolder",
+                fontSize: "2rem",
+              }}
+              className="mt-2"
+            >
+              VINILO
+            </h1>
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -31,13 +33,13 @@ function MyNavbar() {
             className="navbar mx-auto justify-content-between"
             style={{ width: "400px" }}
           >
-            <Nav.Link
-              href="/"
+            <NavLink
+              to="/"
               className="font-weight-bolder"
               style={{ fontSize: "1.2rem" }}
             >
               Home
-            </Nav.Link>
+            </NavLink>
             <Nav.Link
               href="/bestsellers"
               className="font-weight-bolder"

@@ -23,7 +23,7 @@ function App() {
     <HashRouter basename="/">
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar />
-        <div className=" switch-checkbox">
+        <div className="switch-checkbox">
           <button type="submit" class="btn btn-light">
             <input type="checkbox" onChange={() => setDarkMode(!darkMode)} />
             Light-Dark
